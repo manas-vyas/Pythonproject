@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps {
-                sh 'hello world'            }
+                sh 'pip3 install -r requirements.txt'           }
 
         }
     }
