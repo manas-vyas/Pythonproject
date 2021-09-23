@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps {
-                bat 'pip3 install -r requirements.txt'           }
+                bat 'pip3.9 install -r requirements.txt'           }
 
         }
     }
